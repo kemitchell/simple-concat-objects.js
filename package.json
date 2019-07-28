@@ -1,0 +1,21 @@
+{
+  "name": "simple-concat-objects",
+  "version": "0.0.0",
+  "description": "minimalist concat-stream for object streams",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/simple-concat-objects.js",
+  "license": "BlueOak-1.0.0",
+  "devDependencies": {
+    "defence-cli": "^3.0.1",
+    "from2-array": "0.0.4",
+    "replace-require-self": "^1.1.1"
+  },
+  "keywords": [
+    "concat",
+    "concat-stream",
+    "concat stream"
+  ],
+  "scripts": {
+    "test": "defence -i javascript README.md | replace-require-self | node"
+  }
+}
